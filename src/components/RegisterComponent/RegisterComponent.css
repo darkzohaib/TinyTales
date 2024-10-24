@@ -1,0 +1,16 @@
+.container-sm {
+  background-color: azure;
+  padding: 1%;
+  margin: 2%;
+  border-radius: 5%;
+  /* width: 100%; */
+}
+.brand img {
+  width: 150px; /* Set width to desired size */
+  height: 150px; /* Set height to desired size */
+  border-radius: 50%; /* Make the image round */
+  object-fit: cover; /* Ensures the image covers the circle evenly */
+}
+.frontendValidation {
+  color: red;
+}

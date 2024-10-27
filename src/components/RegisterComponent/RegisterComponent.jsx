@@ -91,7 +91,7 @@ function RegisterComponent() {
         email !== "" &&
         contactNumber !== "" &&
         password !== "" &&
-        contactNumberValidation == false
+        contactNumberValidation === false
     );
   };
 

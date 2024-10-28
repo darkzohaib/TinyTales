@@ -46,7 +46,7 @@ function RegisterComponent() {
     // Make the POST request using axios with the correct payload structure
     axios
       //.post("http://localhost:8080/registerTinyTalesClient", formData)
-      .post("https://tiny-tales-main-zo-test-git.apps.nprdc-ocp.dhdigital.co.in/registerTinyTalesClient", formData)
+      .post("https://tiny-tales-git-backend-zo-test-git.apps.nprdc-ocp.dhdigital.co.in/registerTinyTalesClient", formData)
       .then((response) => {
         const successMessage =
           response.data.RegisterTinyTalesClientResponse.success.message;
